@@ -1,12 +1,13 @@
-To run the Program
-Compilation : g++ -std=c++14 Main.cpp Cargo.cpp Container.cpp FragileCargo.cpp LiquidCargo.cpp MineralCargo.cpp FoodCargo.cpp TextileCargo.cpp HeavyEquipmentCargo.cpp CustomDuty.cpp FreightCharges.cpp TotalCostCalculator.cpp Crew.cpp Carrier.cpp Port.cpp Shipment.cpp Customer.cpp ShipmentRecord.cpp ShipmentManagementSystem.cpp -o shipping_system
+# To run the Program
+**Compilation** : `g++ -std=c++14 Main.cpp Cargo.cpp Container.cpp FragileCargo.cpp LiquidCargo.cpp MineralCargo.cpp FoodCargo.cpp TextileCargo.cpp HeavyEquipmentCargo.cpp CustomDuty.cpp FreightCharges.cpp TotalCostCalculator.cpp Crew.cpp Carrier.cpp Port.cpp Shipment.cpp Customer.cpp ShipmentRecord.cpp ShipmentManagementSystem.cpp -o shipping_system`
 
-Execution : .\shipping_system.exe
+**Execution** : `.\shipping_system.exe`
 
-Cargo-Shipment-Management-System
+# Cargo-Shipment-Management-System
 This project is a C++ program that demonstrates the core principles of Object-Oriented Programming (OOP): Abstraction, Encapsulation, Polymorphism, and Inheritance. It is designed with a strong emphasis on the SOLID principles - a set of design principles that improve code flexibility, maintainability, and scalability.
 
-Features
+# Features
+```
 Abstraction                                   : Hides complex implementations, exposing only necessary features to the user.
 
 Encapsulation                                 : Controls data access and modification, safeguarding internal states of objects.
@@ -24,3 +25,4 @@ Liskov Substitution Principle (LSP)           : Subtypes can seamlessly replace 
 Interface Segregation Principle (ISP)         : Interfaces are tailored to specific client needs, avoiding unnecessary dependencies.
 
 Dependency Inversion Principle (DIP)          : High-level modules depend on abstractions, not on concrete implementations.
+```
